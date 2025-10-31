@@ -10,4 +10,5 @@ for i in range(lanzamientos):
         acum = acum + ganancia
     elif suma in [6, 7]: #Diana paga
         acum = acum - ganancia
-print(acum)
+#VALOR ESPERADOS
+print(f"Diana pierde, y termina pagando en total {(acum/lanzamientos)*100} dólares a Jason")
